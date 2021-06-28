@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>One time unique Roll Number generator</title>
+</head>
+<body>
+    <div>
+  <div class="container">
+      <h1>TO INTER INTO EXAM, PROCEED THROUGH FOLLOWING STEPS.</h1>
+  <h1 class="title">One time unique Roll Number generator</h1>
+  <h3 class="Generator-display" id="passwordDisplay">Roll Number</h3>
+  <form id="passwordgeneratorform" class="form">
+    <label for="CharacterAmountNumber">Number of Characters</label>
+     <div class="character-amount-container">
+    <input type="range" min="15" max="50" value="15"  id="CharacterAmountRange">
+     <input class="number-input"type="number" min="15" max="50" value="15"  id="CharacterAmountNumber">
+    </div>
+
+     <label for="includeUppercase">Include Uppercase</label>
+     <input type="checkbox" id="includeUppercase">
+
+     <label for="includeNumbers">Include Numbers</label>
+     <input type="checkbox" id="includeNumbers">
+
+     <label for="includeSymbols">Include Symbols</label>
+     <input type="checkbox" id="includeSymbols">
+     
+     <button type="submit" class="btn">Generate</button>
+  
+   
+   
+    </form> 
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="EsewaContainer">
+    <h2>Instructions:</h2>
+<div class="headingforAlign">
+    <h4>1. Generate Unique Roll Number or make your own.Important!, Use one time only and it should be unique each time.</h4>
+    <h4>2. Type in the Unique Roll Number box.</h4>
+    <h4>3. Save this number for verification later .</h4>  
+    <h4>4. Proceed for Esewapayment Rs.1000.</h4> 
+</div>
+<div class="formdiv">
+<form action="https://uat.esewa.com.np/epay/main" method="POST">
+    <input value="1000" name="tAmt" type="hidden">
+    <input value="990" name="amt" type="hidden">
+    <input value="5" name="txAmt" type="hidden">
+    <input value="2" name="psc" type="hidden">
+    <input value="3" name="pdc" type="hidden">
+    <input value="EPAYTEST" name="scd" type="hidden">
+    <div class="formdiv"></div>
+    <input value="" name="pid" placeholder="type one time unique Roll Number" class="unique" type="">
+    <input value="https://gangmore.blogspot.com/p/resultpage.html" type="hidden" name="su">
+    <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu"> 
+    <br>
+    <br>
+    <input value="Proceed for Esewapayment Rs.1000" type="submit" class="Esewapayment">
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+  background-color: #abe6fa;
+  
+  margin: 0;
+  color: white;
+  min-height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.container {
+  background-color: #00BFFF;
+  padding: 3rem;
+  border-radius: 1rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow:0px 0px 10px 2px blue;
+    background-size:cover;
+
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title {
+    margin: 0;
+    text-align: center;
+    }
+
+    label {
+        font-weight: bold;
+}
+
+.character-amount-container {
+   display: flex;
+   align-items: center;
+
+}
+
+.number-input {
+  width: 2rem;
+
+}
+
+.Generator-display{
+    background-color: white;
+    color: rgb(158, 132, 132);
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: #FFFFFF33;
+}
+
+.EsewaContainer {
+    background-color: #00BFFF;
+  padding: 3rem;
+  border-radius: 1rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow:0px 0px 10px 2px blue;
+    background-size:cover;
+}
+
+.unique {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 250px;
+}
+
+.Esewapayment {
+    border-radius: 1rem;
+    background-color: #52D017;
+    padding: .5rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+
+}
+
+.formdiv {
+  display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingforAlign {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: .1rem;
+    column-gap: .1rem;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+  
+
